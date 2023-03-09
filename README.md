@@ -9,7 +9,7 @@ CSDeskBand makes it easy to create a deskband using Winforms or WPF.
 ![Example 2](images/ex2.png)
 
 _Images taken from the sample projects_
-
+ 
 ## Table of Contents
 - [Usage](#usage)
   - [Library Installation](#installation)
