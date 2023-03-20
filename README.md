@@ -2,7 +2,7 @@
 A Library to create [DeskBands](https://msdn.microsoft.com/en-us/library/windows/desktop/cc144099(v=vs.85).aspx) on windows using C#. Deskbands are toolbars that are docked on the taskbar and provide additional functionality to an otherwise unused space.
 
 CSDeskBand makes it easy to create a deskband using Winforms or WPF.
-
+ 
 ## Screenshots
 ![Example 1](images/ex1.png)
 
