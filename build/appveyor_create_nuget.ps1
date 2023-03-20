@@ -49,3 +49,5 @@ if ($wpf_version) {
     Write-Host "Building CSDeskband.wpf" $wpf_version
     & nuget pack $scriptDir/../src/CSDeskband.Wpf/CSDeskband.Wpf.csproj -Properties Configuration=Release -Version $wpf_version -OutputDirectory $scriptDir
 }
+
+// hello world
