@@ -1,4 +1,4 @@
-# This script will create nuget packages based on the tags.
+# This script will create nuget packages based on the tags. 
 
 # Regex for tags in the form of vX.X.X+<core|wpf|win>
 # core = CSDeskBand, wpf = CSDeskband.Wpf, win = CSDeskBand.win
