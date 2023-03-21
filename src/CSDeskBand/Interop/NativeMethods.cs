@@ -359,6 +359,7 @@ namespace CSDeskBand.Interop
         CMF_DONOTPICKDEFAULT = 0x00002000,
         CMF_RESERVED = 0xffff0000,
     }
+    
 
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
     public struct POINT

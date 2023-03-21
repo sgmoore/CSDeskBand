@@ -10,6 +10,7 @@ namespace CSDeskBand
     using System.Windows.Media;
     using System.Windows;
 
+
     /// <summary>
     /// Wpf implementation of <see cref="ICSDeskBand"/>
     /// The deskband should also have these attributes <see cref="ComVisibleAttribute"/>, <see cref="GuidAttribute"/>, <see cref="CSDeskBandRegistrationAttribute"/>.

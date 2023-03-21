@@ -5,6 +5,7 @@
 #pragma warning disable 1591
 namespace CSDeskBand
 {
+    
     using System;
     using System.Collections.Generic;
     using System.Runtime.InteropServices;
