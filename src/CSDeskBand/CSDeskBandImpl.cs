@@ -9,6 +9,8 @@
     using static CSDeskBand.Interop.DESKBANDINFO.DBIM;
     using static CSDeskBand.Interop.DESKBANDINFO.DBIMF;
 
+
+    /// 
     /// <summary>
     /// Default implementation for icsdeskband
     /// </summary>
