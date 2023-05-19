@@ -6,7 +6,8 @@ namespace CSDeskBand
     using System.Runtime.InteropServices;
     using System.Windows.Forms;
     using CSDeskBand.Interop;
-
+    
+    
     /// <summary>
     /// Winforms implementation of <see cref="ICSDeskBand"/>.
     /// The deskband should also have these attributes <see cref="ComVisibleAttribute"/>, <see cref="GuidAttribute"/>, <see cref="CSDeskBandRegistrationAttribute"/>.
