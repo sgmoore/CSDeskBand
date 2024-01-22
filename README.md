@@ -125,22 +125,13 @@ Now you are ready to start working on the deskband like a normal user control.
 The nuget packages are outdated and currently not being updated for versions > 3.
 
 ## Deskband Installation
-You need to start an elevated command prompt and be able to use `regasm.exe`. Make sure that you use the correct version of regasm that matches your platform (x86/x64).
+You need to start an elevated command prompt and be able to use `regsvr32.exe`. 
 ```
-cd ExampleWinforms\bin\Debug
+cd ExampleWinforms\bin\Debug\net8.0-windows
 
-regasm /codebase ExampleWinforms.dll
+install-example
 ```
-The `/codebase` switch will add the path of the dll into the registry entry.
 
-Alternatively, register the assemblies into the Global Assembly Cache.
-```
-gacutil -i ExampleWinforms.dll
-regasm ExampleWinforms.dll
-```
-_Note that GAC installation requires the assemblies to be [Strong-Named](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/strong-named-assemblies)_
-
-Here is an [example .bat file](./tools/install-example.bat) for installing a deskband.
 
 ## Examples
 There are example deskbands included for Winforms and WPF in the [Sample winforms](https://github.com/dsafa/CSDeskBand/tree/master/src/ExampleWinforms) and [Sample wpf](https://github.com/dsafa/CSDeskBand/tree/master/src/ExampleWpf) projects.

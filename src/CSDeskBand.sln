@@ -1,13 +1,17 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSDeskBand", "CSDeskBand\CSDeskBand.csproj", "{37ECDFDD-FA85-4B91-B69F-8B53CB2A23E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSDeskBand", "CSDeskBand\CSDeskBand.csproj", "{37ECDFDD-FA85-4B91-B69F-8B53CB2A23E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWinforms", "ExampleWinforms\ExampleWinforms.csproj", "{C2C1AC0C-182B-4897-9BD6-B77581146AC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleWinforms", "ExampleWinforms\ExampleWinforms.csproj", "{C2C1AC0C-182B-4897-9BD6-B77581146AC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWpf", "ExampleWpf\ExampleWpf.csproj", "{865B7BDC-9818-4ABC-9915-D8B95043DB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleWpf", "ExampleWpf\ExampleWpf.csproj", "{865B7BDC-9818-4ABC-9915-D8B95043DB87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C33653FC-12A8-43E3-BE39-E827F397244E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
