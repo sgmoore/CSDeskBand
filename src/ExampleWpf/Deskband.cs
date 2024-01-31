@@ -17,6 +17,7 @@ namespace ExampleWpf
     {
         public Deskband()
         {
+            Options.MinHorizontalSize = new Size(100, 30);
             Options.ContextMenuItems = ContextMenuItems;
         }
 
